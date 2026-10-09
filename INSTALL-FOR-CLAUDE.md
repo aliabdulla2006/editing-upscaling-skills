@@ -17,6 +17,7 @@ Claude: follow these steps in order, check each one, and tell the user what you 
 | 9 | **ffprobe** on PATH (comes with FFmpeg: `winget install Gyan.FFmpeg`) | reads clip lengths | `ffprobe -version` |
 | 10 | **Google Chrome** at `C:\Program Files\Google\Chrome\Application\chrome.exe` | the upscaler drives a real Chrome (Higgsfield blocks test browsers) | file exists |
 | 11 | **Higgsfield account** with credits (the user's own) | Topaz upscale | logs in once in step 4 |
+| 12 | **Higgsfield connector for Claude** (claude.ai > Settings > Connectors > Higgsfield, same account) | the upscale skill uses its `show_generations` / `jobs_wait` tools to find and download the finished upscale | Claude can call `mcp__claude_ai_Higgs__balance` and the workspace is the user's own |
 
 FFmpeg itself (`ffmpeg.exe`) is not needed; the tools use PyAV. If Windows ever blocks `ffmpeg.exe`, nothing breaks.
 

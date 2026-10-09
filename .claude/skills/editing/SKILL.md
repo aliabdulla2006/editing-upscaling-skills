@@ -36,7 +36,7 @@ The user's flow (2026-10-08):
 - **Song**: options from the profile (best ones first, max 4 + "Other"; list all of them in the question text).
   - Song-timeline brands (each CapCut timeline holds one song, named after it): song = template timeline (`"template": "<id>"`, no `"song"`).
   - Structure brands (templates are layouts, e.g. full-clip vs hook + clip): template is picked by the clip, song is separate (`"song": "<song id>"`).
-- **Caption**: the profile's `caption_styles` (the `best` one first), each option showing the exact text with store / team filled in; plus the original's caption if this is a replication. the user can type their own under "Other" (goes in `"texts": {"hook": "...", "cta": "..."}`).
+- **Caption**: the profile's `caption_styles` (the `best` one first), each option showing the exact text with store / team filled in; plus the original's caption if this is a replication. The user can type their own under "Other" (goes in `"texts": {"hook": "...", "cta": "..."}`).
 
 ## Step 2: build + export
 Write the spec to `products/<brand folder>/edits/<date>/<hook> <song> <caption>.json`, then:
@@ -61,7 +61,7 @@ What the tool does: builds the timeline into the day's project `AUTO <brand> <PA
 Then tell the user in a few lines: file path, length, song + section, captions, and the CapCut project + timeline name.
 
 ## Step 3: tweaks
-"I want to tweak it" -> `python tools/capcut_open.py "AUTO <brand> <PAGE> <date>" "<timeline name>"` (CapCut must be closed). the user edits and exports themselves, or saves + closes and says "export it" -> `python tools/capcut_export.py "<spec.json>" --no-build --open` (exports the project's main timeline).
+"I want to tweak it" -> `python tools/capcut_open.py "AUTO <brand> <PAGE> <date>" "<timeline name>"` (CapCut must be closed). The user edits and exports themselves, or saves + closes and says "export it" -> `python tools/capcut_export.py "<spec.json>" --no-build --open` (exports the project's main timeline).
 If they say what they changed (or "check my changes"): diff their timeline against a rebuild of the spec and show the differences in a table. Song / mix changes -> `song_library.py learn`. Anything else -> update the brand profile and save a feedback memory with the why.
 
 ## Upscaling
