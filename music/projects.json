@@ -1,0 +1,4 @@
+{
+  "_note": "CapCut project name (prefix) -> music library key (any slug). null = skip that project. Then run: python tools/song_library.py scan",
+  "<Your CapCut project name>": "<brand-slug>"
+}

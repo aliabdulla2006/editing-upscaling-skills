@@ -1,0 +1,7 @@
+{
+  "default": {
+    "end_sound_db_below_song": 10.9,
+    "hook_db_over_song": 3.0,
+    "note": "end sound (raw box audio) 10.9 dB under the song for library song swaps; hook voice 3 dB over the song"
+  }
+}

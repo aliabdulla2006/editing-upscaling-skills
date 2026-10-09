@@ -1,0 +1,146 @@
+{
+  "brand": "noah-kahan",
+  "mother": "music-box",
+  "display": "Noah Kahan music box",
+  "product_folder": "products/noah-kahan",
+  "music_library": "noah-kahan",
+  "media_dirs": [
+    "products/noah-kahan",
+    "products/celine-dion",
+    "music/noah-kahan"
+  ],
+  "capcut_project": "Noah Kahan",
+  "pages": {
+    "us": {
+      "language": "en",
+      "hooks_dir": "products/noah-kahan/final-clips",
+      "templates": [
+        {
+          "id": "stick-season-1",
+          "timeline": "Stick Season 1",
+          "rank": 1,
+          "song": "Stick Season, earlier focal point 0:39.07 -> 0:50.87, then raw 'Stick season 1.m4a'",
+          "hook_len": 4.87,
+          "length": 15.77
+        },
+        {
+          "id": "stick-season-2",
+          "timeline": "Stick Season",
+          "rank": 2,
+          "song": "Stick Season, later focal point 0:53.07 -> 1:05.07, then raw 'Stick season 2.m4a'",
+          "hook_len": 5.07,
+          "length": 15.97
+        },
+        {
+          "id": "you-re-gonna-go-far",
+          "timeline": "Your gonna go far",
+          "rank": 3,
+          "song": "You're Gonna Go Far, 3:01.40 -> 3:13.40, then raw 'Your gonna go far.m4a'",
+          "hook_len": 5.07,
+          "length": 15.97
+        },
+        {
+          "id": "draw-you-out",
+          "timeline": "Draw You Out",
+          "rank": 4,
+          "song": "Draw You Out, 0:31.60 -> 0:43.60, then raw 'Draw you out.m4a'",
+          "hook_len": 5.07,
+          "length": 15.97
+        },
+        {
+          "id": "orbiter",
+          "timeline": "Orbiter",
+          "rank": 5,
+          "song": "Orbiter, 2:12.90 -> 2:24.60, then raw 'Orbiter.m4a' (body has the self-checkout beat)",
+          "hook_len": 3.17,
+          "length": 15.67
+        },
+        {
+          "id": "end-of-august",
+          "timeline": "End of agust",
+          "rank": 6,
+          "song": "End of August, 2:34.87 -> 2:47.00, then raw 'End of August.m4a' (body has the self-checkout beat)",
+          "hook_len": 3.8,
+          "length": 16.17
+        },
+        {
+          "id": "northern-attitude",
+          "timeline": "Northern Attitude",
+          "rank": 7,
+          "song": "Northern Attitude (with Hozier), 2:34.33 -> 2:44.97, then raw 'Northern attitude.m4a' (old hook in 2 pieces)",
+          "hook_len": 4.13,
+          "length": 14.7
+        }
+      ],
+      "captions": {
+        "hook": [
+          "Do NOT show this to\nNoah Kahan fan.. 😱🔥",
+          "Every Noah Kahan Fan\nNEEDS this.. 😱🔥",
+          "Noah Kahan fans don't\nwalk, RUN to target.. 😱🔥",
+          "Target just collabed with\nNoah Kahan .. 😱🔥",
+          "Noah Kahan X TARGET\n😱🔥"
+        ],
+        "cta": [
+          "Comment \"WANT\" \nto GET one🔥"
+        ],
+        "reveal_cta": [
+          "JK we make them 😜\ncomment \"WANT\" to get one🔥"
+        ],
+        "extra": [
+          "link in bio 🔗"
+        ]
+      },
+      "ranking_note": "Ranks are Ali's timeline order until he names the best performers (no Noah data in Morpheus yet).",
+      "caption_styles": [
+        {
+          "id": "do-not-show",
+          "best": true,
+          "hook": "Do NOT show this to\nNoah Kahan fan.. 😱🔥",
+          "cta": "Comment \"WANT\" \nto GET one🔥",
+          "note": "Same pattern as Celine's best caption. Default."
+        },
+        {
+          "id": "needs-this",
+          "hook": "Every Noah Kahan Fan\nNEEDS this.. 😱🔥",
+          "cta": "Comment \"WANT\" \nto GET one🔥"
+        },
+        {
+          "id": "run-to-store",
+          "hook": "Noah Kahan fans don't\nwalk, RUN to <STORE>.. 😱🔥",
+          "cta": "JK we make them 😜\ncomment \"WANT\" to get one🔥",
+          "note": "<STORE> = the store the hook shows."
+        },
+        {
+          "id": "store-collab",
+          "hook": "Noah Kahan X <STORE>\n😱🔥",
+          "cta": "JK we make them 😜\ncomment \"WANT\" to get one🔥"
+        },
+        {
+          "id": "store-just-collabed",
+          "hook": "<STORE> just collabed with\nNoah Kahan .. 😱🔥",
+          "cta": "JK we make them 😜\ncomment \"WANT\" to get one🔥"
+        }
+      ],
+      "captions_note": "'link in bio 🔗' stays wherever the template has it (last ~1.6 s); it is never treated as the CTA."
+    }
+  },
+  "songs": [
+    "noah-kahan/stick-season",
+    "noah-kahan/you-re-gonna-go-far",
+    "noah-kahan/draw-you-out-the-hunger-games-sunrise-on",
+    "noah-kahan/end-of-august",
+    "noah-kahan/northern-attitude-with-hozier",
+    "noah-kahan/orbiter"
+  ],
+  "notes": "The fridge clip in Ali's Noah timelines is fridge-disc-swap-celine-FINAL.mp4 (hence products/celine-dion in media_dirs).",
+  "rules": [
+    "Normal edit: only the hook changes (sometimes the rehook). Body, end clip, caption style and song placement come from the template.",
+    "Hook longer or shorter than the template: the tool ripples the timeline. Body and CTA move, the hook caption stretches, the song starts earlier (music box, handoff fixed) or runs longer (no end sound).",
+    "Store-claim hooks (RUN to <STORE>, <BRAND> x <STORE>, '<STORE> just collabed') pair with the reveal CTA (JK / Just JOKING / Je rigole). Every other hook pairs with the plain CTA.",
+    "Use the store the hook clip actually shows (TARGET / WALMART / COSTCO / LECLERC / CARREFOUR).",
+    "No em dashes in captions."
+  ],
+  "workflow": "Same as Celine (Ali, 2026-10-08): each timeline in CapCut project 'Noah Kahan' is named after its song and holds that song cut to the right section. Picking the song = picking the timeline. Swap the hook (new clip at normal speed; an old hook cut into pieces is replaced as one) and set the caption style. Body clips never change. Shorter hook: cut the start of the song and caption, slide left. Longer hook: extend song and caption at the start.",
+  "mix": "Keep each song timeline exactly as Ali mixed it. The 10.9 dB raw rule only applies to library song swaps.",
+  "export_dir": "exports/music-box/noah-kahan/<page>"
+}

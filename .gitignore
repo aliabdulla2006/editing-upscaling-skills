@@ -1,0 +1,11 @@
+*.mp4
+*.mov
+*.mp3
+*.m4a
+*.wav
+*.png
+*.jpg
+.browser/
+tools/_capcut_backups/
+__pycache__/
+.env

@@ -1,0 +1,182 @@
+{
+  "brand": "celine-dion",
+  "mother": "music-box",
+  "display": "Celine Dion music box (Celine Melodien)",
+  "product_folder": "products/celine-dion",
+  "music_library": "celine-dion",
+  "media_dirs": [
+    "products/celine-dion",
+    "music/celine-dion"
+  ],
+  "capcut_project": "Celine Dion (2)-copy1-copy",
+  "pages": {
+    "us": {
+      "language": "en",
+      "hooks_dir": "products/celine-dion/final-clips/US/1-hook",
+      "templates": [
+        {
+          "id": "the-power-of-love",
+          "timeline": "The Power Of Love",
+          "rank": 1,
+          "best": true,
+          "song": "The Power Of Love, 2:07.33 -> 2:18.93, then raw 'The power of love.m4a'",
+          "hook_len": 3.7,
+          "length": 15.57
+        },
+        {
+          "id": "it-s-all-coming-back-to-me-now",
+          "timeline": "It's All Coming Back to Me Now",
+          "rank": 2,
+          "best": true,
+          "song": "It's All Coming Back to Me Now, 2:31.40 -> 2:43.47, then raw 'New idea.m4a'",
+          "hook_len": 3.8,
+          "length": 16.03
+        },
+        {
+          "id": "my-heart-will-go-on-v1",
+          "timeline": "V1 My Heart Will Go On",
+          "rank": 3,
+          "song": "My Heart Will Go On, earlier focal point 3:04.53 -> 3:17.27, then raw 'Residencia 30.m4a'",
+          "hook_len": 5.07,
+          "length": 16.7
+        },
+        {
+          "id": "my-heart-will-go-on-v2",
+          "timeline": "V2 My Heart Will Go On",
+          "rank": 4,
+          "song": "My Heart Will Go On, later focal point 3:12.37 -> 3:23.90 (2 pieces), then raw 'Heart 2.m4a'",
+          "hook_len": 4.93,
+          "length": 15.5
+        },
+        {
+          "id": "because-you-loved-me",
+          "timeline": "Because You Loved Me",
+          "rank": 5,
+          "song": "Because You Loved Me, 0:45.27 -> 0:53.17, then raw 'Because you loved me.m4a'",
+          "hook_len": 4.87,
+          "length": 14.83
+        },
+        {
+          "id": "i-m-alive",
+          "timeline": "I'm Alive",
+          "rank": 6,
+          "song": "I'm Alive, 0:37.30 -> 0:52.67, then raw 'I'm alive.m4a'",
+          "hook_len": 5.63,
+          "length": 19.33
+        }
+      ],
+      "captions": {
+        "hook": [
+          "Do NOT show this to\nCeline Dion fan.. 😱🔥",
+          "Celine Dion fans don't walk,\nRUN to <STORE>.. 😱🔥",
+          "We couldn't afford to go Paris \nto see Celine Dion\nSo I got my Mom this.. 😱🔥",
+          "we decided to create this \nto capture her greatness.. 😱🔥"
+        ],
+        "cta": [
+          "Comment \"WANT\" \nto GET one🔥"
+        ],
+        "reveal_cta": [
+          "JK.. we sell them, 🤭 \nComment \"WANT\" to GET one🔥"
+        ]
+      },
+      "caption_styles": [
+        {
+          "id": "do-not-show",
+          "best": true,
+          "hook": "Do NOT show this to\nCeline Dion fan.. 😱🔥",
+          "cta": "Comment \"WANT\" \nto GET one🔥",
+          "note": "By far the best hook caption (used most on IG / FB). Default."
+        },
+        {
+          "id": "run-to-store",
+          "hook": "Celine Dion fans don't walk,\nRUN to <STORE>.. 😱🔥",
+          "cta": "JK.. we sell them, 🤭 \nComment \"WANT\" to GET one🔥",
+          "note": "<STORE> = the store the hook clip shows: TARGET, WALMART, COSTCO, ..."
+        }
+      ]
+    },
+    "fr": {
+      "language": "fr",
+      "hooks_dir": "products/celine-dion/final-clips/FR/1-hook",
+      "templates": [
+        {
+          "id": "hymne-a-l-amour",
+          "timeline": "French 2",
+          "rank": 1,
+          "song": "Hymne à l'amour (Paris 2024), 2:20.13 -> 2:32.10, then raw 'Residencia 38.m4a'",
+          "hook_len": 5.07,
+          "length": 15.57
+        },
+        {
+          "id": "pour-que-tu-m-aimes-encore",
+          "timeline": "French",
+          "rank": 2,
+          "song": "Pour que tu m'aimes encore, 0:52.73 -> 1:04.67, then raw 'Residencia 39.m4a'",
+          "hook_len": 5.07,
+          "length": 15.9
+        },
+        {
+          "id": "the-power-of-love",
+          "timeline": "Timeline 14",
+          "rank": 3,
+          "song": "The Power Of Love, 2:08.80 -> 2:18.93, then raw 'The power of love.m4a' (French body)",
+          "hook_len": 3.23,
+          "length": 14.1
+        }
+      ],
+      "captions": {
+        "hook": [
+          "Ne montrez SURTOUT pas ça\nà une fan de Céline Dion.. 😱🔥",
+          "Les fans de Céline Dion ne marchent pas,\nelles COURENT chez LECLERC.. 😱🔥"
+        ],
+        "cta": [
+          "Commentez « VEUX »\npour avoir la vôtre🔥",
+          "Commentez « VEUX »\npour en avoir une🔥"
+        ],
+        "reveal_cta": [
+          "Je rigole.. on les vend 🤭 \nCommentez « VEUX » pour en avoir une🔥"
+        ]
+      },
+      "caption_styles": [
+        {
+          "id": "do-not-show",
+          "best": true,
+          "hook": "Ne montrez SURTOUT pas ça\nà une fan de Céline Dion.. 😱🔥",
+          "cta": "Commentez « VEUX »\npour avoir la vôtre🔥",
+          "note": "French version of the best US caption. Default."
+        },
+        {
+          "id": "run-to-store",
+          "hook": "Les fans de Céline Dion ne marchent pas,\nelles COURENT chez <STORE>.. 😱🔥",
+          "cta": "Je rigole.. on les vend 🤭 \nCommentez « VEUX » pour en avoir une🔥",
+          "note": "<STORE> = LECLERC, CARREFOUR, ... (the store the hook shows)."
+        }
+      ],
+      "body": "FR-opening-box.mp4 + fridge. The English song timelines carry the US body, so they are not FR templates."
+    },
+    "de": {
+      "status": "stopped 2026-10-08 (German Melodien page closed). Do not edit German videos."
+    }
+  },
+  "songs": [
+    "celine-dion/my-heart-will-go-on",
+    "celine-dion/because-you-loved-me",
+    "celine-dion/i-m-alive",
+    "celine-dion/the-power-of-love",
+    "celine-dion/it-s-all-coming-back-to-me-now",
+    "celine-dion/hymne-l-amour-2024-paris-olympic-games",
+    "celine-dion/pour-que-tu-m-aimes-encore"
+  ],
+  "song_notes": "Hymne à l'amour and Pour que tu m'aimes encore are the French-page songs; the English songs are used on both pages.",
+  "rules": [
+    "Normal edit: only the hook changes (sometimes the rehook). Body, end clip, caption style and song placement come from the template.",
+    "Hook longer or shorter than the template: the tool ripples the timeline. Body and CTA move, the hook caption stretches, the song starts earlier (music box, handoff fixed) or runs longer (no end sound).",
+    "Store-claim hooks (RUN to <STORE>, <BRAND> x <STORE>, '<STORE> just collabed') pair with the reveal CTA (JK / Just JOKING / Je rigole). Every other hook pairs with the plain CTA.",
+    "Use the store the hook clip actually shows (TARGET / WALMART / COSTCO / LECLERC / CARREFOUR).",
+    "No em dashes in captions."
+  ],
+  "workflow": "Ali, 2026-10-08: each timeline in the CapCut project is named after its song and already holds that song cut to the right section. Picking the song = picking the timeline (US: 6 English timelines; FR: French, French 2, Timeline 14). Then swap the hook and set the caption style. Body clips never change. Shorter hook: cut the start of the song and the caption, slide everything left. Longer hook: extend the song and the caption at the start. (capcut_draft.py does exactly that.)",
+  "songs_note_us": "US: the song is chosen by choosing the timeline (each timeline keeps Ali's own cut of its song). The music library is only needed for a song that has no timeline yet.",
+  "mix": "Keep each song timeline exactly as Ali mixed it (song and raw volumes untouched). The 10.9 dB raw-under-song rule only applies when a song is swapped in from the music library.",
+  "export_dir": "exports/music-box/celine-dion/<page>"
+}

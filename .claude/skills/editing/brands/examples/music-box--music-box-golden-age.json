@@ -1,0 +1,76 @@
+{
+  "brand": "music-box-golden-age",
+  "mother": "music-box",
+  "display": "Golden Age (vintage Disney) music box",
+  "product_folder": "products/music-box-golden-age",
+  "music_library": "music-box-golden-age",
+  "media_dirs": [
+    "products/music-box-golden-age",
+    "music/music-box-golden-age"
+  ],
+  "capcut_project": "0918 (2)",
+  "pages": {
+    "us": {
+      "language": "en",
+      "hooks_dir": "products/music-box-golden-age/final-clips/1-hook",
+      "templates": [
+        {
+          "id": "do-not-show",
+          "timeline": "Timeline 11",
+          "hook_len": 4.43,
+          "layout": "hook -> body -> fridge",
+          "captions": "hook caption, plain CTA (GOLD)"
+        },
+        {
+          "id": "store-claim",
+          "timeline": "Timeline 05",
+          "hook_len": 4.7,
+          "layout": "hook -> body -> fridge",
+          "captions": "DISNEY x <STORE> caption, reveal CTA (Just JOKING.. GOLD)"
+        },
+        {
+          "id": "run-to-store",
+          "timeline": "Timeline 01",
+          "hook_len": 4.1,
+          "layout": "hook -> body -> fridge",
+          "captions": "Old Disney fans RUN TO <STORE>, 'Want one? Comment WANT below..'"
+        }
+      ],
+      "captions": {
+        "hook": [
+          "Do NOT show a \nVintage Disney fan THIS.. 🏰✨",
+          "Do NOT show a \nOLD Disney fan THIS ✨",
+          "✨Old Disney fans✨\nRUN TO TARGET",
+          "Old Disney fans, don't walk\nRUN to WALMART.. 🏰✨",
+          "DISNEY x WALMART\n🏰✨",
+          "DISNEY x COSTCO\n🏰✨",
+          "DISNEY OLDIES\nRun to COSTCO\n🏰✨",
+          "✨Vintage Disney✨",
+          "Every Vintage Disney Oldie\nNeeds It"
+        ],
+        "cta": [
+          "Comment \"GOLD\" \nto GET one✨",
+          "Comment \"GOLD\" \nand I'll send you the link✨",
+          "Want one? \nComment \"WANT\" below..",
+          "Want one? \n🔗Link in bio..✨"
+        ],
+        "reveal_cta": [
+          "Just JOKING.. we sell them, 🤭 \nComment \"GOLD\" to GET one✨"
+        ]
+      }
+    }
+  },
+  "songs": [
+    "music-box-golden-age/so-this-is-love",
+    "music-box-golden-age/five-hundred-miles",
+    "music-box-golden-age/reelaudio-324"
+  ],
+  "rules": [
+    "Normal edit: only the hook changes (sometimes the rehook). Body, end clip, caption style and song placement come from the template.",
+    "Hook longer or shorter than the template: the tool ripples the timeline. Body and CTA move, the hook caption stretches, the song starts earlier (music box, handoff fixed) or runs longer (no end sound).",
+    "Store-claim hooks (RUN to <STORE>, <BRAND> x <STORE>, '<STORE> just collabed') pair with the reveal CTA (JK / Just JOKING / Je rigole). Every other hook pairs with the plain CTA.",
+    "Use the store the hook clip actually shows (TARGET / WALMART / COSTCO / LECLERC / CARREFOUR).",
+    "No em dashes in captions."
+  ],
+  "export_dir": "exports/music-box/golden-age/<page>"
+}

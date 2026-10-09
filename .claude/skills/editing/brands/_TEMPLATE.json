@@ -1,0 +1,61 @@
+{
+  "brand": "<brand-slug>",
+  "mother": "music-box | door-beam",
+  "display": "<Brand name, product line>",
+  "product_folder": "products/<...>",
+  "music_library": "<key in music/library.json (only needed when songs are swapped)>",
+  "media_dirs": [
+    "products/<...>",
+    "music/<library>"
+  ],
+  "capcut_project": "<CapCut project that holds the template timelines>",
+  "export_dir": "exports/<music-box or door-beam>/<brand>/<page>",
+  "workflow": "<how the user edits this brand, in plain English>",
+  "mix": "Keep each song timeline exactly as the user mixed it.",
+  "pages": {
+    "us": {
+      "language": "en",
+      "hooks_dir": "products/<...>/final-clips/1-hook",
+      "templates": [
+        {
+          "id": "<song-id>",
+          "timeline": "<CapCut timeline name>",
+          "rank": 1,
+          "best": true,
+          "song": "<Song title, section start -> handoff>",
+          "hook_len": 5.07
+        },
+        {
+          "id": "<song-id-2>",
+          "timeline": "<CapCut timeline name>",
+          "rank": 2,
+          "song": "<...>",
+          "hook_len": 4.87,
+          "song_anchor": "start  (car door projector only: song start synced to the hook, extend at the end)"
+        }
+      ],
+      "caption_styles": [
+        {
+          "id": "do-not-show",
+          "best": true,
+          "hook": "Do NOT show this to\n<fan> fan.. 😱🔥",
+          "cta": "Comment \"WANT\" \nto GET one🔥"
+        },
+        {
+          "id": "run-to-store",
+          "hook": "<fan> fans don't walk,\nRUN to <STORE>.. 😱🔥",
+          "cta": "JK.. we sell them, 🤭 \nComment \"WANT\" to GET one🔥"
+        }
+      ],
+      "captions": {
+        "extra": [
+          "link in bio 🔗"
+        ]
+      }
+    }
+  },
+  "songs": [
+    "<library>/<song-id>  (structure brands only)"
+  ],
+  "rules": []
+}

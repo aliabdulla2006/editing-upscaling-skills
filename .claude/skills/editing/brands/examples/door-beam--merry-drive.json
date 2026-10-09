@@ -1,0 +1,96 @@
+{
+  "brand": "merry-drive",
+  "mother": "door-beam",
+  "display": "Door Beam, Merry Drive Edition (Christmas)",
+  "product_folder": "products/car-door-projector/christmas",
+  "music_library": "car-door-projector",
+  "media_dirs": [
+    "products/car-door-projector",
+    "music/car-door-projector"
+  ],
+  "capcut_project": "Car Door Projector-copy",
+  "pages": {
+    "us": {
+      "language": "en",
+      "hooks_dir": "products/car-door-projector/christmas/final-clips",
+      "templates": [
+        {
+          "id": "most-wonderful-time",
+          "timeline": "V1 My Heart Will Go On",
+          "rank": 1,
+          "song_anchor": "start",
+          "song": "It's the Most Wonderful Time of the Year, from 0:01.47",
+          "hook_len": 4.07,
+          "length": 16.73
+        },
+        {
+          "id": "all-i-want-for-christmas",
+          "timeline": "Timeline 02",
+          "rank": 2,
+          "song_anchor": "start",
+          "song": "All I Want for Christmas Is You, from 0:55.37 (old hook in 2 pieces)",
+          "hook_len": 2.8,
+          "length": 16.43
+        },
+        {
+          "id": "rockin-around-the-tree",
+          "timeline": "Timeline 03",
+          "rank": 3,
+          "song_anchor": "start",
+          "song": "Rockin' Around the Christmas Tree, from 0:02.90 (body has the extra lap-unbox beat)",
+          "hook_len": 4.27,
+          "length": 17.9
+        }
+      ],
+      "captions": {
+        "hook": [
+          "Every CHRISTMAS obsessed\nNEEDS this... 🤭🎄🇺🇸",
+          "Every XMAS lover\nNEEDS this... 🤭🎄🇺🇸",
+          "CHRISTMAS moms \nRUN to Target. 🤭🎄🇺🇸"
+        ],
+        "cta": [
+          "Comment \"CHRISTMAS\" \nif you NEED one 🎁🎄"
+        ],
+        "reveal_cta": []
+      },
+      "caption_styles": [
+        {
+          "id": "christmas-obsessed",
+          "best": true,
+          "hook": "Every CHRISTMAS obsessed\nNEEDS this... 🤭🎄🇺🇸",
+          "cta": "Comment \"CHRISTMAS\" \nif you NEED one 🎁🎄"
+        },
+        {
+          "id": "xmas-lover",
+          "hook": "Every XMAS lover\nNEEDS this... 🤭🎄🇺🇸",
+          "cta": "Comment \"CHRISTMAS\" \nif you NEED one 🎁🎄"
+        },
+        {
+          "id": "moms-run-to-store",
+          "hook": "CHRISTMAS moms \nRUN to <STORE>. 🤭🎄🇺🇸",
+          "cta": "Comment \"CHRISTMAS\" \nif you NEED one 🎁🎄",
+          "note": "<STORE> in Ali's casing: 'Target', 'Walmart'."
+        }
+      ]
+    }
+  },
+  "songs": [
+    "car-door-projector/it-s-the-most-wonderful-time-of-the-year",
+    "car-door-projector/all-i-want-for-christmas-is-youu",
+    "car-door-projector/rockin-around-the-christmas-tree"
+  ],
+  "rules": [
+    "Normal edit: only the hook changes (sometimes the rehook). Body, end clip, caption style and song placement come from the template.",
+    "Hook longer or shorter than the template: the tool ripples the timeline. Body and CTA move, the hook caption stretches, the song starts earlier (music box, handoff fixed) or runs longer (no end sound).",
+    "Store-claim hooks (RUN to <STORE>, <BRAND> x <STORE>, '<STORE> just collabed') pair with the reveal CTA (JK / Just JOKING / Je rigole). Every other hook pairs with the plain CTA.",
+    "Use the store the hook clip actually shows (TARGET / WALMART / COSTCO / LECLERC / CARREFOUR).",
+    "No em dashes in captions.",
+    "Unboxing / bag-cut hooks (product pulled out of a packet): drop the store checkout clip (spec \"drop_clips\": [\"checkout-pay.mp4\"]). Ali 2026-10-09.",
+    "Hook clip with its own burned-in caption: no caption of ours over it. Our hook caption starts when the burned-in one disappears, with the SAME text, emojis, size and height (spec \"texts\" + \"text_style\": {\"hook\": {\"start\": <s>, \"y\": <y>, \"scale_mult\": <x>}}). Rare. Ali 2026-10-09.",
+    "Caption must not cover the face: if it sits on the eyes, raise it slightly (\"text_style\": {\"hook\": {\"y_shift\": 0.08}}), still below the Instagram top icons. Ali 2026-10-09.",
+    "Hook ends max about 1 s after the product display lands (hook_out). Showing the boxes 2-3 s in the hook is too long. Ali 2026-10-09."
+  ],
+  "export_dir": "exports/door-beam/merry-drive/<page>",
+  "workflow": "Same as the music box song timelines: each timeline holds its song; picking the song = picking the timeline. Swap the hook (an old hook in pieces is replaced as one) and set the caption. Body (checkout -> install -> chip -> projections) never changes. Door Beam has no raw end sound: one song under the whole video. Its start is synced to the hook, so a longer hook extends the song at the END, never the beginning (Ali, 2026-10-08).",
+  "mix": "Keep each song timeline exactly as Ali mixed it."
+}

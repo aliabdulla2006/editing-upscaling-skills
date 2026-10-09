@@ -1,0 +1,95 @@
+{
+  "brand": "walk-off-lights",
+  "mother": "door-beam",
+  "display": "Door Beam, Walk-Off Lights Edition (baseball)",
+  "product_folder": "products/car-door-projector/baseball",
+  "music_library": "car-door-projector",
+  "media_dirs": [
+    "products/car-door-projector",
+    "music/car-door-projector"
+  ],
+  "capcut_project": "Car Door Projector",
+  "pages": {
+    "us": {
+      "language": "en",
+      "hooks_dir": "products/car-door-projector/baseball/final-clips",
+      "templates": [
+        {
+          "id": "full-video",
+          "timeline": "Timeline 04",
+          "rank": 1,
+          "song_anchor": "start",
+          "layout": "one full clip = the whole video; caption over most of it, CTA on the last ~2.8 s",
+          "current_song": "Squabble Up 0:01.80 ->",
+          "hook_len": 11.07
+        },
+        {
+          "id": "gift-hook",
+          "timeline": "Timeline 02",
+          "rank": 2,
+          "song_anchor": "start",
+          "layout": "short hook (gift / reaction) -> full Costco-pallet-to-door clip; caption until ~8 s, CTA last ~2 s",
+          "current_song": "Free Bird 4:47.17 ->",
+          "hook_len": 3.43
+        }
+      ],
+      "captions": {
+        "hook": [
+          "DO NOT show this to\na Dodgers fan... 😱🔥",
+          "DO NOT show this to\na Yankees fan... 😱🔥",
+          "DO NOT let a Baseball\nfan see this... 😱⚾",
+          "Perfect gift for a \nBaseball fan... 👀🤩",
+          "Dodgers fans don't walk,\nRUN to COSTCO.. 😱🔥"
+        ],
+        "cta": [
+          "Comment \"WANT\" to\nif you NEED one 🔥"
+        ],
+        "reveal_cta": [
+          "JK.. we sell them, 🤭 \nComment \"WANT\" to GET one🔥"
+        ]
+      },
+      "caption_styles": [
+        {
+          "id": "do-not-show-team",
+          "best": true,
+          "hook": "DO NOT show this to\na <TEAM> fan... 😱🔥",
+          "cta": "Comment \"WANT\" to\nif you NEED one 🔥",
+          "note": "<TEAM> = the team in the clip (Dodgers, Yankees, ...)."
+        },
+        {
+          "id": "do-not-let-baseball",
+          "hook": "DO NOT let a Baseball\nfan see this... 😱⚾",
+          "cta": "Comment \"WANT\" to\nif you NEED one 🔥"
+        },
+        {
+          "id": "perfect-gift",
+          "hook": "Perfect gift for a \nBaseball fan... 👀🤩",
+          "cta": "Comment \"WANT\" to\nif you NEED one 🔥"
+        },
+        {
+          "id": "run-to-store",
+          "hook": "<TEAM> fans don't walk,\nRUN to <STORE>.. 😱🔥",
+          "cta": "JK.. we sell them, 🤭 \nComment \"WANT\" to GET one🔥",
+          "note": "<STORE> = the store in the clip."
+        }
+      ]
+    }
+  },
+  "songs": [
+    "car-door-projector/free-bird",
+    "car-door-projector/squabble-up-2024",
+    "car-door-projector/reelaudio-30664"
+  ],
+  "notes": "Ali's CTA reads 'Comment \"WANT\" to / if you NEED one' (stray 'to'). Kept verbatim until Ali says to fix it. The team in the hook caption must match the team in the clip.",
+  "rules": [
+    "Normal edit: only the hook changes (sometimes the rehook). Body, end clip, caption style and song placement come from the template.",
+    "Hook longer or shorter than the template: the tool ripples the timeline. Body and CTA move, the hook caption stretches, the song starts earlier (music box, handoff fixed) or runs longer (no end sound).",
+    "Store-claim hooks (RUN to <STORE>, <BRAND> x <STORE>, '<STORE> just collabed') pair with the reveal CTA (JK / Just JOKING / Je rigole). Every other hook pairs with the plain CTA.",
+    "Use the store the hook clip actually shows (TARGET / WALMART / COSTCO / LECLERC / CARREFOUR).",
+    "No em dashes in captions."
+  ],
+  "export_dir": "exports/door-beam/walk-off-lights/<page>",
+  "workflow": "Two structures, picked by the hook clip: a FULL clip (store gasp -> grab -> door projection, final-clips/full-videos or a full replication) uses 'full-video'; a short hook clip uses 'gift-hook' (hook + the full Costco-pallet-to-door clip). Song is chosen separately and swapped in. Door Beam has no raw end sound: one song under the whole video. Its start is synced to the hook, so a longer hook extends the song at the END, never the beginning (Ali, 2026-10-08).",
+  "song_note": "Song is swapped from music/library.json. Open question for Ali: in all 4 of his Free Bird edits the song ENDS at 4:59.2 and the start moves (4:44-4:48), i.e. he extended Free Bird at the beginning. Until he answers, every song follows his stated rule (start fixed, extend the end).",
+  "exclude": "V1 (montage that reuses the hook clip on a second layer) and Timeline 03 (no song) are not templates."
+}
